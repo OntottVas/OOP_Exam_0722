@@ -69,4 +69,13 @@ public class BankAccount {
             throw new InvalidAccountNumberException();
         }
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "accountName='" + accountName + '\'' +
+                ", balance=" + balance +
+                ", accountNumber='" + accountNumber + '\'' +
+                '}';
+    }
 }

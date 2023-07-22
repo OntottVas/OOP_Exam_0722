@@ -1,10 +1,10 @@
-OOP modulzáró
+# OOP modulzáró
 
 Készíts egy új, verziókezelt projektet!
 A feladatotkat külön-külön package-ekben oldd meg, ezeket a package-eket neked kell létrehoznod! (Mindegyik package-ed tartalmazhat main() metódust, ahol tesztelhetsz, de nem kötelező.)
 Ha kész vagy, pushold fel a megoldásaid (természetesen előbb is pusholhatsz) és küldd el Andrisnak a repód linkjét!
 
-person package
+# person package
 Hozz létre egy Person osztályt (getterekkel, setterekkel és legalább 1 konstruktorral), amely a következő információkat tárolja egy személyről:
 név (name)
 életkor (age)
@@ -22,7 +22,7 @@ Plusz pont: a toString metódus nem fut rekurzióra 1 pont
 
 Pontozás: 12 + 1 pont 
 
-bank package
+# bank package
 Készíts egy bankszámlát reprezentáló BankAccount osztályt, amely tartalmazza a számla tulajdonosának nevét (accountName), az egyenleget (balance) és egy egyedi számlaszámot (accountNumber). 1 pont
 
 Valósítsd meg, hogy egy számla létrehozása után a számlatulajdonos neve (és természetesen az egyenlege is) változhasson, ám a számlaszáma nem! 1,5 pont
@@ -43,7 +43,7 @@ Plusz pont: helyes paraméterlisták 1 pont
 
 Pontozás: 12 + 1 pont
 
-zoo package
+# zoo package
 
 Készíts egy állatkertet, amelyben különböző típusú állatok élnek. Az állatok lehetnek emlősök (Mammal), madarak (Bird) vagy hüllők (Reptile). 
 Az emlősök között legyenek legalább kutya (Dog) és macska (Cat), a madarak között legalább sas (Eagle) és pingvin (Penguin), a hüllők között pedig kígyó (Snake) és teknős (Turtle) osztályok! 2 pont
@@ -61,7 +61,7 @@ Plusz pont: OOP koncepciók precíz követése 1 pont
 Pontozás: 9 + 1 pont
 
 
-shape package
+# shape package
 Írj egy programot ami különböző geometriai formáknak képes kiszámolni a kerületét (perimeter) 1 pont és területét (area) 1 pont!
 kör (Circle) 1 pont
 kerület = 2*r*Pi
@@ -77,4 +77,3 @@ A Pi értékét a Math.PI-vel érheted el!
 Plusz pont: OOP koncepciók precíz követése 1 pont
 
 Pontozás: 7 + 1 pont
-# OOP_Exam_0722
